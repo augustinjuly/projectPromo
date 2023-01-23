@@ -6,7 +6,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 60px 80px 0 80px;
+    padding: 80px 80px 0 80px;
 }
 
 nav a{
@@ -58,7 +58,7 @@ nav a{
     top:50px;
 }
 
-.section1 button:hover, .section3 button:hover, .section4 button:hover, .section5 button:hover{
+.section1 button:hover, .section3 button:hover, .section4 button:hover, .section10 button:hover, .footerflex1 button:hover{
     background-color: skyblue;
 }
 
@@ -239,11 +239,322 @@ nav a{
 .section5{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 90px;
+    padding: 100px 80px 0 80px;
 }
 
 .section5 h2{
+    font-size: 50px;
+    font-family: 'Asap';
+    font-weight: 700;
+    position: relative;
+    top:200px;
+}
+
+.section5 p{
+    font-size: 20px;
+    font-family: 'Asap';
+    line-height: 1.5;
+    position: relative;
+    top: 225px;
+}
+
+.section5 ul{
+    margin-left:20px;
+    position: relative;
+    top: 240px;
+    line-height: 30px;
+}
+
+.section5 img{
+    position: relative;
+    right: 60px;
+}
+
+.section6{
+    padding: 100px 80px 0 80px;
+    margin-bottom: 200px;
+}
+
+.section6 h2{
+    text-align: center;
+    font-size: 50px;
+    line-height: 1;
+    font-family: 'Asap';
+    font-weight: 700;
+    margin-top: 200px;
+    position: relative;
+    bottom: 60px;
+}
+
+.section6grid{
+    display: grid;
+    width: 1000px;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 100px;
+    column-gap: 35px;
+    margin-top: 50px;
+    position: relative;
+    left: 230px;
+}
+
+.section6 span{
+    font-size:22px;
+    font-weight: 700;
+    padding-left: 25px;
+    line-height: 1.5;
+}
+
+.section6 p{
+    font-size: 20px;
+    font-family: 'Asap';
+    line-height: 1.5;
+}
+
+.section7{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 80px 0 80px;
+}
+
+.section7 h2{
+    font-size: 50px;
+    line-height: 1.2em;
+    font-family: 'Asap';
+    font-weight: 900;
+    position: relative;
+    top: 75px;
+}
+
+.section7 p{
+    font-size: 20px;
+    font-family: 'Asap';
+    line-height: 1.5;
+    position: relative;
+    top: 100px;
+}
+
+.section7 img{
+    position: relative;
+    right: 20px;
+}
+
+.section7flex{
+    display: flex;
+    border-radius: 100px;
+    border: 0;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 150px;
+    width: 530px;
+    height: 130px;
+    padding-right: 50px;
+    background-color: #e2f4ff;
+    position: relative;
+    left: 40px;
+}
+
+.section7flex h6{
+    font-size:40px;
+    font-weight: 800;
+    line-height: 1;
+    font-family: 'Asap';
+    position: relative;
+    left: 10px;
+}
+
+.section7flexp{
+    font-size: 20px;
+    letter-spacing: .2px;
+    font-weight:400;
+    line-height: 2.5;
+    font-family: 'Asap';
+}
+
+.section8{
+    text-align: center;
+    padding: 100px 80px 0 80px;
+}
+
+.section8 h2{
+    font-size: 50px;
+    line-height: 1;
+    font-family: 'Asap';
+    font-weight: 900;
+    position: relative;
+    top: 300px;
+}
+
+.section8flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 400px;
+}
+
+.section8flex h4{
+    font-size: 25px;
+    letter-spacing: .2px;
+    font-family: 'Asap';
+    line-height: 1.15;
+}
+
+.section8flex h5{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0;
+    font-family: 'Asap';
+    line-height: 1.4;
+}
+
+.section9 h2{
+    text-align: center;
+    margin-bottom: 430px;
+    font-size: 50px;
+    line-height: 1;
+    font-family: 'Asap';
+    font-family: 900;
+    letter-spacing: 0;
+    position: relative;
+    top: 420px;
+}
+
+.section9flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 200px;
+}
+
+.section9flex img{
+    position: relative;
+    left: 65px;
+    top: 100px;
+}
+
+.section9flex h4{
+    font-size: 22px;
+    font-weight: 900;
+    font-family: 'Asap';
+    line-height: 1.15;
+    letter-spacing: 0;
+    text-align: left;
+    position: relative;
+    left:230px;
+    top: 14px;
+}
+
+.section9flex h5{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Asap';
+    line-height: 1.4;
+    text-align: left;
+    position: relative;
+    left:230px;
+    top: 20px;
+}
+
+.section9flex p{
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    font-family: 'Asap';
+    line-height: 1.5;
+    font-weight: 500;
+    position: relative;
+    left: 100px;
+    top: 50px;
+} 
+
+
+.section9flexitems{
+    width: 600px;
+    height: 300px;
+    border-radius:0 200px 200px 200px;
+    background-color:#dcf4f8;
+}
+
+.section10 h2{
+    text-align: center;
+    margin-bottom: 350px;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1;
+    font-family: 'Asap';
+    letter-spacing: 0;
+    position: relative;
+    top: 180px;
+}
+
+.section10 span{
+    font-size: 22px;
+    text-transform: capitalize;
+    cursor: pointer;
+    line-height: 1.5;
+    font-family: 'Asap';
+    font-weight: 400;
+    color: #000;
+    padding: 15px;
+    position: relative;
+    left:350px;
+    bottom: 80px;
+}
+
+.section10 a{
+    position: relative;
+    left:390px;
+    bottom: 80px;
+    padding: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: capitalize;
+    cursor: pointer;
+    line-height: 1.5;
+    font-family: 'Asap';
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+
+.section10grid{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    padding:80px;
+    margin-bottom: 100px;
+}
+
+.section10grid img{
+    border-radius: 10px;
+}
+
+.section10 button{
+    border-radius: 200px;
+    border: 0;
+    height: 55px;
+    width: 180px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Asap';
+    letter-spacing: 1px;
+    color: white;
+    background-color: #2e4f7e;
+    margin-bottom: 50px;
+    position: relative;
+    left: 695px;
+    bottom: 128px;
+    cursor: pointer;
+}
+
+.footerflex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px;
+    background-color:#b6e0fa;
+}
+
+.footerflex1 h2{
     font-size: 55px;
     font-weight: 600;
     font-family: 'Asap';
@@ -252,7 +563,7 @@ nav a{
     right: 150px;
 }
 
-.section5 button{
+.footerflex1 button{
     border-radius: 200px;
     border: 0;
     height: 55px;
@@ -274,7 +585,7 @@ nav a{
     position: relative;
     right: 200px;
 }
-.footerflex{
+.footerflex2{
     display: flex;
     justify-content: space-between;
     background-color: #2e4f7e;
@@ -282,7 +593,7 @@ nav a{
     height: 130px;
 }
 
-.footerflex a{
+.footerflex2 a{
     text-decoration: none;
     color: white;
     margin: 25px;
@@ -294,7 +605,7 @@ nav a{
     right: 40px;
 }
 
-.aborder{
+.iconborder{
     background-color:#133e7a;
     border-radius: 200px;
     border: 0;
@@ -305,7 +616,7 @@ nav a{
     left: 115px;
 }
 
-.footerflex p{
+.footerflex2 p{
     color: white;
     font-size: 16px;
     font-family: 'Asap';
