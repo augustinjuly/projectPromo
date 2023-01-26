@@ -175,6 +175,82 @@ nav a{
     bottom: 35px;
 }
 
+.color4{
+    border: 1px solid #2e4f7e;
+    background: linear-gradient(#b6cceb,white);
+    height: 10px;
+    border:0;
+    width: 270px;
+    position: relative;
+    top: 240px;
+}
+
+.color5{
+    border: 1px solid #2e4f7e;
+    background: linear-gradient(#b6cceb,white);
+    height: 10px;
+    border:0;
+    width: 400px;
+    position: relative;
+    left: 510px;
+    top: 173px;
+}
+
+.color6{
+    border: 1px solid #2e4f7e;
+    background: linear-gradient(#b6cceb,white);
+    height: 10px;
+    border:0;
+    width: 200px;
+    position: relative;
+    top: 109px;
+}
+
+.color7{
+    border: 1px solid #2e4f7e;
+    background: linear-gradient(#b6cceb,white);
+    height: 10px;
+    border:0;
+    width: 300px;
+    position: relative;
+    left:560px;
+    top:330px;
+}
+
+.color8{
+    border: 1px solid #2e4f7e;
+    background: linear-gradient(#b6cceb,white);
+    height: 10px;
+    border:0;
+    width: 460px;
+    position: relative;
+    left:550px;
+    top:450px;
+}
+
+.color9{
+    border: 1px solid #2e4f7e;
+    background: linear-gradient(#b6cceb,white);
+    height: 10px;
+    border:0;
+    width: 275px;
+    position: relative;
+    left: 650px;
+    top:210px;
+}
+
+.color10{
+    border: 1px solid #2e4f7e;
+    background: linear-gradient(#b6cceb,white);
+    height: 10px;
+    border:0;
+    width: 220px;
+    position: relative;
+    left: 600px;
+    top:15px;
+}
+
+
 .section4 h2{
     font-size: 50px;
     font-weight: 600;
@@ -318,7 +394,7 @@ nav a{
 
 .section7 h2{
     font-size: 50px;
-    line-height: 1.2em;
+    line-height:1.2em;
     font-family: 'Asap';
     font-weight: 900;
     position: relative;
@@ -406,18 +482,6 @@ nav a{
     line-height: 1.4;
 }
 
-.section9 h2{
-    text-align: center;
-    margin-bottom: 430px;
-    font-size: 50px;
-    line-height: 1;
-    font-family: 'Asap';
-    font-family: 900;
-    letter-spacing: 0;
-    position: relative;
-    top: 420px;
-}
-
 .section9flex{
     display: flex;
     justify-content: center;
@@ -425,10 +489,16 @@ nav a{
     margin-bottom: 200px;
 }
 
-.section9flex img{
+.section9 h2{
+    text-align: center;
+    margin-bottom: 430px;
+    font-size: 50px;
+    line-height: 1;
+    font-family: 'Asap';
+    font-weight: 900;
+    letter-spacing: 0;
     position: relative;
-    left: 65px;
-    top: 100px;
+    top: 420px;
 }
 
 .section9flex h4{
@@ -439,8 +509,8 @@ nav a{
     letter-spacing: 0;
     text-align: left;
     position: relative;
-    left:230px;
-    top: 14px;
+    left: 150px;
+    bottom: 60px;
 }
 
 .section9flex h5{
@@ -450,28 +520,30 @@ nav a{
     line-height: 1.4;
     text-align: left;
     position: relative;
-    left:230px;
-    top: 20px;
+    left: 150px;
+    bottom: 55px;
 }
 
 .section9flex p{
     font-size: 20px;
-    font-style: italic;
-    text-align: left;
     font-family: 'Asap';
     line-height: 1.5;
-    font-weight: 500;
     position: relative;
-    left: 100px;
-    top: 50px;
+    bottom: 20px;
 } 
 
+.section9flex img{
+    position: relative;
+    left: 65px;
+    top: 100px;
+}
 
 .section9flexitems{
-    width: 600px;
-    height: 300px;
-    border-radius:0 200px 200px 200px;
+    border: 2px solid black;
+    border: 0;
+    padding: 80px 150px 80px 80px;
     background-color:#dcf4f8;
+    border-radius: 0 160px 160px 160px;
 }
 
 .section10 h2{
@@ -544,6 +616,98 @@ nav a{
     left: 695px;
     bottom: 128px;
     cursor: pointer;
+}
+
+.section11{
+    padding: 100px 80px 120px 80px;
+}
+
+.section11 h2{
+    font-size: 50px;
+    line-height: 1;
+    font-family: 'Asap';
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    bottom:15px;
+}
+
+.section11flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section11flex1{
+    margin-bottom: 100px;
+    margin-top: 140px;
+}
+
+.section11flex1 button{
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Asap';
+    background-color:#2e4f7e;
+    border-radius: 100px;
+    border: 0;
+    width: 200px;
+    height: 65px;
+    color: #fff;
+    border: 0;
+    position: relative;
+    top:50px;
+}
+
+.section11flex2{
+    border: 2px solid #dcf4f8;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 150px;
+    right: 90px;
+    padding: 0 0 70px 40px;
+}
+
+.section11flex2 span{
+    font-family: "Raleway",arial,sans-serif;
+    font-size: .9375em;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    left: 10px;
+}
+
+.section11flex2 p{
+    font-family: 'Asap';
+    font-size: 100%;
+    line-height: 1.5;
+    position: relative;
+    left: 122px;
+    bottom: 60px;
+}
+.smallinput{
+    border: 0;
+    border-radius:40px;
+    font-size: 100%;
+    width: 500px;
+    padding:20px 140px 17px 30px;
+    margin-bottom: 25px;
+    background-color:#dcf4f8;
+}
+
+.biginput{
+    border: 0;
+    border-radius: 25px;
+    font-size: 100%;
+    width: 500px;
+    padding:20px 140px 150px 30px;
+    background-color: #dcf4f8;
 }
 
 .footerflex1{
